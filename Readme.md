@@ -61,9 +61,9 @@ python main.py --mode        evaluation
 ```
 The folder bestmodel_inference/ will save the validation correct mask and prediction mask which combined with input image and black background 
 **Correct Mask with input images**
-![](https://i.imgur.com/wmr20uv.png)
+<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/dataset0.png" width="300" height="300">
 **Prediction Mask with input images**
-![](https://i.imgur.com/jUM5WMO.png)
+<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/dataset1.png" width="300" height="300">
 
 ## Inference the model
 ```
