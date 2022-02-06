@@ -7,9 +7,9 @@
 * [UTFPR-SBD3](https://github.com/bioinfolabic/UTFPR-SBD3): Extracted 3045 images
 
 In Dataset, I deleted the data like following figures
-![](https://i.imgur.com/eNWCwNT.png =400x300)
+![](https://i.imgur.com/eNWCwNT.png )
 
-![](https://i.imgur.com/pG1NcOR.png =400x300)
+![](https://i.imgur.com/pG1NcOR.png )
 
 **You can download the full pre-processed data in [here](https://drive.google.com/file/d/1btPq1ICmYs2fCwA49kS15VLt8KpQi5j_/view?usp=sharing)**
 
@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
 Input Image              |  Output image
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/CFcm1WB.jpg =250x300)  |  ![](https://i.imgur.com/NxX2Udu.jpg =250x300)
+![](https://i.imgur.com/CFcm1WB.jpg )  |  ![](https://i.imgur.com/NxX2Udu.jpg )
 
 **Example3 Use the mobileV2 Unet which trained by 512x512 pixel images and inferece autoadjust_model_inputsize = True** 
 
@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
 Input Image              |  Output image
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/CFcm1WB.jpg =250x300)  |  ![](https://i.imgur.com/Uv6miUp.jpg =250x300)
+![](https://i.imgur.com/CFcm1WB.jpg )  |  ![](https://i.imgur.com/Uv6miUp.jpg )
 
 ## Real time Inference
 ### Using UNet_VGG16_256x256 with 256x256 size model input
@@ -143,7 +143,7 @@ if __name__ == "__main__":
     cfg.background = "test_img/test_backgroud.jpg"
     cfg.CAMERA_SIZE = (480,640)
 ```
-![](https://i.imgur.com/7XEJIIo.gif =400x400)
+![](https://i.imgur.com/7XEJIIo.gif)
 
 ### Using UNet_MobileV2_256x256 with 256x256 size model input
 ```
@@ -158,7 +158,7 @@ if __name__ == "__main__":
     cfg.CAMERA_SIZE = (480,640)
 ```
 
-![](https://i.imgur.com/jE2nSjs.gif =400x400)
+![](https://i.imgur.com/jE2nSjs.gif)
 
 ### Using UNet_MobileV2_512x512 with autoadjust_model_inputsize =True
 ```
@@ -171,7 +171,7 @@ if __name__ == "__main__":
     cfg.background = "test_img/test_backgroud.jpg"
     cfg.CAMERA_SIZE = (480,640)
 ```
-![](https://i.imgur.com/oaGDM4O.gif =400x400)
+![](https://i.imgur.com/oaGDM4O.gif)
 ### Using UNet_MobileV2_512x512 with changing the output threshold
 
 ```
@@ -185,7 +185,7 @@ if __name__ == "__main__":
     cfg.CAMERA_SIZE = (480,640)
     cfg.Out_threshold = 0.9
 ```
-![](https://i.imgur.com/oLKkMQP.gif =400x400)
+![](https://i.imgur.com/oLKkMQP.gif)
 
 # Reference
 https://github.com/aladdinpersson/Machine-Learning-Collection
