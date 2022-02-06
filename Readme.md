@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
 Input Image              |  Output image
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/CFcm1WB.jpg =250x300)  |  ![](https://i.imgur.com/czm949m.jpg =250x300)
+![](https://i.imgur.com/CFcm1WB.jpg)  |  ![](https://i.imgur.com/czm949m.jpg)
 
 **Example2 Use the mobileV2 Unet which trained by 512x512 pixel images**
 
