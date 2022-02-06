@@ -171,7 +171,7 @@ if __name__ == "__main__":
     cfg.background = "test_img/test_backgroud.jpg"
     cfg.CAMERA_SIZE = (480,640)
 ```
-![](https://i.imgur.com/oaGDM4O.gif)
+![image](https://i.imgur.com/oaGDM4O.gif)
 ### Using UNet_MobileV2_512x512 with changing the output threshold
 
 ```
