@@ -171,7 +171,7 @@ if __name__ == "__main__":
     cfg.background = "test_img/test_backgroud.jpg"
     cfg.CAMERA_SIZE = (480,640)
 ```
-![]<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/Mobile512.gif" width="300" height="300">
+<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/Mobile512.gif" width="300" height="300">
 ### Using UNet_MobileV2_512x512 with changing the output threshold
 
 ```
