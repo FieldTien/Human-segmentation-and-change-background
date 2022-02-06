@@ -16,7 +16,7 @@ In Dataset, I deleted the data like following figures
 
 # Model Result
 * ImageNet finetuning VGG16,MobileV2 as encoder, and freezed the encoder parameters.
-* Still trying the other Encoders like mobileV3,effienctNet,RegNet and the UNet3+ archihteture.
+* Still trying the other Encoders like mobileV3,effienctNet,RegNet and the UNet3+ architeture.
 
 ### Training image size 256x256(200 Epochs)
 |          | Valid  Acc  | Valid MIoU | Test  Acc |Test MIoU | MACS |Parameters |
