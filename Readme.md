@@ -143,7 +143,7 @@ if __name__ == "__main__":
     cfg.background = "test_img/test_backgroud.jpg"
     cfg.CAMERA_SIZE = (480,640)
 ```
-![](https://i.imgur.com/7XEJIIo.gif)
+![]<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/vgg16.gif" width="300" height="300">
 
 ### Using UNet_MobileV2_256x256 with 256x256 size model input
 ```
@@ -158,7 +158,7 @@ if __name__ == "__main__":
     cfg.CAMERA_SIZE = (480,640)
 ```
 
-![image]<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/vgg16.gif" width="400" height="400">
+![]<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/mobile256.gif" width="300" height="300">
  
 ### Using UNet_MobileV2_512x512 with autoadjust_model_inputsize =True
 ```
@@ -171,7 +171,7 @@ if __name__ == "__main__":
     cfg.background = "test_img/test_backgroud.jpg"
     cfg.CAMERA_SIZE = (480,640)
 ```
-![image](https://i.imgur.com/oaGDM4O.gif)
+![]<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/Mobile512.gif" width="300" height="300">
 ### Using UNet_MobileV2_512x512 with changing the output threshold
 
 ```
@@ -185,7 +185,7 @@ if __name__ == "__main__":
     cfg.CAMERA_SIZE = (480,640)
     cfg.Out_threshold = 0.9
 ```
-![](https://i.imgur.com/oLKkMQP.gif)
+![]<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/threshold.gif" width="300" height="300">
 
 # Reference
 https://github.com/aladdinpersson/Machine-Learning-Collection
