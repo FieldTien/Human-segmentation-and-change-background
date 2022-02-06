@@ -158,7 +158,7 @@ if __name__ == "__main__":
     cfg.CAMERA_SIZE = (480,640)
 ```
 
-![image](img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/vgg16.gif" width="400" height="400")
+![image]<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/vgg16.gif" width="400" height="400">
  
 ### Using UNet_MobileV2_512x512 with autoadjust_model_inputsize =True
 ```
