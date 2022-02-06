@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
 Input Image              |  Output image
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/CFcm1WB.jpg)  |  ![](https://i.imgur.com/czm949m.jpg)
+<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/input.jpg" width="300" height="300"> |  <img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/output0.jpg" width="300" height="300">
 
 **Example2 Use the mobileV2 Unet which trained by 512x512 pixel images**
 
@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
 Input Image              |  Output image
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/CFcm1WB.jpg )  |  ![](https://i.imgur.com/NxX2Udu.jpg )
+<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/input.jpg" width="300" height="300"> |  <img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/output1.jpg" width="300" height="300">
 
 **Example3 Use the mobileV2 Unet which trained by 512x512 pixel images and inferece autoadjust_model_inputsize = True** 
 
@@ -129,8 +129,7 @@ if __name__ == "__main__":
 
 Input Image              |  Output image
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/CFcm1WB.jpg )  |  ![](https://i.imgur.com/Uv6miUp.jpg )
-
+<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/input.jpg" width="300" height="300"> |  <img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/output2.jpg" width="300" height="300">
 ## Real time Inference
 ### Using UNet_VGG16_256x256 with 256x256 size model input
 ```
