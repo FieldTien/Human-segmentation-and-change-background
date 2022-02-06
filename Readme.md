@@ -7,9 +7,10 @@
 * [UTFPR-SBD3](https://github.com/bioinfolabic/UTFPR-SBD3): Extracted 3045 images
 
 In Dataset, I deleted the data like following figures
-![](https://i.imgur.com/eNWCwNT.png )
 
-![](https://i.imgur.com/pG1NcOR.png )
+<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/dataset0.png" width="300" height="300">
+
+<img src="https://github.com/FieldTien/Human-segmentation-and-change-background/blob/main/readme_pic/dataset1.png" width="300" height="300">
 
 **You can download the full pre-processed data in [here](https://drive.google.com/file/d/1btPq1ICmYs2fCwA49kS15VLt8KpQi5j_/view?usp=sharing)**
 
