@@ -21,9 +21,11 @@ In Dataset, I deleted the data like following figures
 ### Training image size 256x256(200 Epochs)
 |          | Valid  Acc  | Valid MIoU | Test  Acc |Test MIoU | MACS |Parameters |
 | -------- | --------   | --------| -------- | --------       | --------        |--------  | 
-| UNET_VGG16_256x256| 98.47%     | 94.99% |98.40%   |94.76%            |44.656G          |29.273M |
-| UNET_MobileV2_256x256 | 98.19%     | 94.05%  |98.16%   |94.00%            |2.166G            |5.108M |
-
+| UNET_VGG16_256x256| 98.64%     | 95.51% |98.53%   |95.23%          |58.326G         |29.273M |
+| UNET_ResNet18_256x256| 98.55%     | 95.21% |98.59%   |95.39%          |13.559G         |27.330M |
+| UNET_MobileV2_256x256 | 98.42%     | 94.8%  |98.46%   |94.95%          |2.829G          |5.108M |
+| UNET_MobileV3_256x256 | 98.49%     | 95.03%  |98.5%   |95.08%          |2.741G          |5.933M |
+| UNET_EfficientB2_256x256 | 98.77%     | 95.94%  |98.77%   |95.94%          |5.933G          |16.707M |
 ### Training image size 512x512(200 Epochs)
 |          | Valid  Acc  | Valid MIoU | Test  Acc |Test MIoU | MACS |Parameters |
 | -------- | --------   | --------| -------- | --------       | --------        |--------  | 
